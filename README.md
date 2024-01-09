@@ -314,7 +314,7 @@ Only works for the buttons on the bottom row.
 igds prism launcher config android
 ```
 Enable the new dark mode in instagram, from being an amoled black to a more pleasant dark blue
-![Alt text](.\YAIDG\prism-launcher\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/prism-launcher/mymind-XUlsF9LYeVk-unsplash.png)
 ## Fix empty space below bottom navigation bar
 ```md
 is mw bottom padding enabled
@@ -333,7 +333,7 @@ should override to external browser
 ```md
 stories sticker tray redesign
 ```
-![Alt text](.\YAIDG\sticker-tray-redesign\right.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/sticker-tray-redesign/right.png)
 ## Convos reshare
 ```md
 convos reshare hub
@@ -348,7 +348,7 @@ avatar in standard tray
 ```md
 media previews in stories tray
 ```
-![Alt text](.\YAIDG\media-preview-in-stories-tray\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/media-preview-in-stories-tray/mymind-XUlsF9LYeVk-unsplash.png)
 ## New heart like animation
 ```md
 new double tap to like animation
@@ -365,12 +365,12 @@ fx centralized settings show entrypoint
 project elevation enabled 
 ```
 Disable both, Show the old UI of instagram setting menu instead of the new one.
-![Alt text](.\YAIDG\oldsettings\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/oldsettings/mymind-XUlsF9LYeVk-unsplash.png)
 ## Direct new icon
 ```md
 direct interop rebrand
 ```
-![Alt text](.\YAIDG\interop-rebrand\interop-rebrand.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/interop-rebrand/interop-rebrand.png)
 ## New login UI
 ```md
 bypass triage oe
@@ -378,7 +378,7 @@ bypass triage oe
 ```md
 should see xav switcher
 ```
-![Alt text](.\YAIDG\login\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/login/mymind-XUlsF9LYeVk-unsplash.png)
 ## Channels tab
 ```md
 channels inbox discovery
@@ -388,7 +388,7 @@ Enable everything except:
 - disable mesages tab badging
 - fetch channels on startup (this makes unloadable direct list)
 - decline invitations from inbox enabled
-![Alt text](.\YAIDG\channels-tab\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/channels-tab/mymind-XUlsF9LYeVk-unsplash.png)
 ## Plus button in stories tray
 ```md
 icon over ring enabled
@@ -419,7 +419,7 @@ camera android nav3 bottom creation animation
 scrubber in expanded video
 ```
 Attention!!! Only works for reels videos in the main feed. This doesn't work for igtv, regular video, and carousel videos in the following & favorites tabs, explore tab, and profile tab.
-![Alt text](.\YAIDG\scrubber\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/scrubber/mymind-XUlsF9LYeVk-unsplash.png)
 ## New sharing shortcut
 ```md
 super share
@@ -430,18 +430,18 @@ Attention!!! Not recommended to activate the 3rd option because the "add X to yo
 ```md
 upcoming events creation
 ```
-![Alt text](.\YAIDG\reminder\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/reminder/mymind-XUlsF9LYeVk-unsplash.png)
 ## Comments translations
 ```md
 comments translations
 ```
-![Alt text](.\YAIDG\translation\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/translation/mymind-XUlsF9LYeVk-unsplash.png)
 ## Super share v3
 ```md
 super share v3
 ```
 Enable everything, and modify add top story hscroll to 0 if you want the add to story button, or set it to 1 to remove it
-![Alt text](.\YAIDG\super-share-v3\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/super-share-v3/mymind-XUlsF9LYeVk-unsplash.png)
 ## Add notes to posts/reels
 ```md
 content notes
@@ -451,7 +451,7 @@ No preview until it works again
 ```md
 audience controls
 ```
-![Alt text](.\YAIDG\audience-controls\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/audience-controls/mymind-XUlsF9LYeVk-unsplash.png)
 
 ## Feed emphasized
 ### New versions
@@ -467,12 +467,12 @@ feed emphasized social ufi left aligned enabled
 ```md
 feed emphasized social ufi view all comments enabled
 ```
-![Alt text](.\YAIDG\emhasized\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/emhasized/mymind-XUlsF9LYeVk-unsplash.png)
 ### Old versions
 ```md
 simplified post layout
 ```
-![Alt text](.\YAIDG\emhasized\2mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/emhasized/2mymind-XUlsF9LYeVk-unsplash.png)
 ## Enable For You Tab
 ```md
 feed dsa header nav enable for you title switch
@@ -529,7 +529,7 @@ No idea why it does not work
 clips viewer caption see translation
 ```
 Only activate the 1st option.
-![Alt text](.\YAIDG\translation\translation.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/translation/translation.png)
 ## Swipe left to view profile
 ```md
 swipe to profile
@@ -540,7 +540,7 @@ Only works on reels tab.
 hide unconnected posts with words
 ```
 With this option you can hide or get rid of suggested posts that have certain words and emojis in the captions of the video, after adding the word you want to hide then all suggested posts that have that word in their captions 'will not' appear in your feed and reels tab as suggested posts.
-![Alt text](.\YAIDG\remove\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/remove/mymind-XUlsF9LYeVk-unsplash.png)
 ## Text to speech
 ```md
 reels text to speech
@@ -551,7 +551,7 @@ This feature is only available for reels and not for stories.
 ```md
 clips friendly viewer
 ```
-![Alt text](.\YAIDG\floating\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/floating/mymind-XUlsF9LYeVk-unsplash.png)
 ## Short comment hint text
 ```md
 should shorten comment hint text
@@ -560,7 +560,7 @@ should shorten comment hint text
 ```md
 spotify partnership
 ```
-![Alt text](.\YAIDG\spotify\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/spotify/mymind-XUlsF9LYeVk-unsplash.png)
 ## Tap to pause
 ```md
 reels tap to pause
@@ -569,7 +569,7 @@ reels tap to pause
 ```md
 reels duration
 ```
-![Alt text](.\YAIDG\DURATION\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/DURATION/mymind-XUlsF9LYeVk-unsplash.png)
 ## Download reels
 ```md
 reels third party downloads
@@ -583,7 +583,7 @@ Pending serverside release on my account
 ```md
 avatars in comments
 ```
-![Alt text](.\YAIDG\avatarincmd\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/avatarincmd/mymind-XUlsF9LYeVk-unsplash.png)
 ## Carousel post mention
 ### Old versions
 ```md
@@ -593,7 +593,7 @@ carousel slide comments
 ```md
 carousel comments with combo button
 ```
-![Alt text](.\YAIDG\mention-post\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/mention-post/mymind-XUlsF9LYeVk-unsplash.png)
 ## New comments menu
 ```md
 comment actions menu
@@ -624,17 +624,17 @@ igmwb explore controls
 ```md
 clips global audio search
 ```
-![Alt text](.\YAIDG\music-search\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/music-search/mymind-XUlsF9LYeVk-unsplash.png)
 ## Increase audio preview duration
 ```md
 audio page music preview duration
 ```
-![Alt text](.\YAIDG\long-music-preview\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/long-music-preview/mymind-XUlsF9LYeVk-unsplash.png)
 ## Mutual filters
 ```md
 stories mutuals filter
 ```
-![Alt text](.\YAIDG\mutuals\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/mutuals/mymind-XUlsF9LYeVk-unsplash.png)
 ## New search tab design
 ```md
 reels subtab
@@ -664,7 +664,7 @@ Removed in newer versions
 ```md
 reply types
 ```
-![Alt text](.\YAIDG\reply-types\reply.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/reply-types/reply.png)
 Reply to stories with media, camera, stickersm emojis, gifs or reacts
 ## Story user search
 ```md
@@ -691,7 +691,7 @@ avatars avatar with music sticker
 ```md
 avatars avatar with music sticker is animated stickers enabled
 ```
-![Alt text](YAIDG\avatar-in-song-pill\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](YAIDG/avatar-in-song-pill/mymind-XUlsF9LYeVk-unsplash.png)
 ## Option to cancel all ongoing uploads
 ```md
 stop all uploads
@@ -716,12 +716,12 @@ Removed in newer versions
 ```md
 private lists
 ```
-![Alt text](.\YAIDG\private-lists\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/private-lists/mymind-XUlsF9LYeVk-unsplash.png)
 ## Enable story snapshot
 ```md
 story snapshot
 ```
-![Alt text](.\YAIDG\snapshot\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/snapshot/mymind-XUlsF9LYeVk-unsplash.png)
 ## Disable cubic animation
 ```md
 stories viewer preq cube
@@ -735,7 +735,7 @@ add yours browser
 stories collab stories
 ```
 Not working for now, if you try this feature you will end with a story error, a video that you will not be able to delete
-![Alt text](.\YAIDG\stories-colab-stories\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/stories-colab-stories/mymind-XUlsF9LYeVk-unsplash.png)
 ## 60 second stories
 ```md
 stories video trimmer
@@ -747,12 +747,12 @@ stories originality reel reshares
 ```md
 share profile to stories
 ```
-![Alt text](.\YAIDG\share-profile-to-stories\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/share-profile-to-stories/mymind-XUlsF9LYeVk-unsplash.png)
 ## Post directly to highlights
 ```md
 profile post story directly to highlights
 ```
-![Alt text](.\YAIDG\profile-post-story-directly-to-highlights\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/profile-post-story-directly-to-highlights/mymind-XUlsF9LYeVk-unsplash.png)
 
 <br />
 <br />
@@ -763,13 +763,13 @@ profile post story directly to highlights
 ```md
 ar effects icon change
 ```
-![Alt text](.\YAIDG\effects-af\b10ee6107e47a27b55a70.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/effects-af/b10ee6107e47a27b55a70.png)
 
 ## New fonts
 ```md
 camera android reels text expansion
 ```
-![Alt text](.\YAIDG\fonts\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/fonts/mymind-XUlsF9LYeVk-unsplash.png)
 
 <br />
 <br />
@@ -786,12 +786,12 @@ cf hub
 ```md
 music notes
 ```
-![Alt text](.\YAIDG\notes\music.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/music.png)
 ### Location notes
 ```md
 location notes
 ```
-![Alt text](.\YAIDG\notes\location.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/location.png)
 - Keep disabled ``is text required for sharing``
 ### Videos in notes
 ```md
@@ -805,13 +805,13 @@ notes prompts
 ```md
 live notes
 ```
-![Alt text](.\YAIDG\notes\live.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/live.png)
 ### Enable voice recordings in notes
 ```md
 audio notes config
 ```
 - Keep disabled `internal only`
-![Alt text](.\YAIDG\notes\audios.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/audios.png)
 ### Enable audio and media replies
 ```md
 notes replies
@@ -830,12 +830,12 @@ notes visual effects
 ```md
 see translation notes
 ```
-![Alt text](.\YAIDG\notes\translation.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/translation.png)
 ### Post note for followers, following or close friends
 ```md
 notes audience expansion
 ```
-![Alt text](.\YAIDG\notes\audience.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/notes/audience.png)
 ### Open profile when pressing it
 ```md
 notes profile pic tap reply sheet
@@ -895,7 +895,7 @@ Just like the 'pause all' notifications option in Instagram settings, the quiet 
 quiet mode x plat
 ```
 Improve the "Quiet mode" feature by adding the ability to choose which days to activate this mode
-![Alt text](.\YAIDG\quiet-mode\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/quiet-mode/mymind-XUlsF9LYeVk-unsplash.png)
 ## Chat translations
 ```md
 igd android thread translation is enabled
@@ -928,14 +928,14 @@ direct thread details redesign
 ```
 - Keep disabled show privacy buttons on main page
 - Keep disabled use alternate privacy icon
-![Alt text](.\YAIDG\direct-thread-details-redesign\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/direct-thread-details-redesign/mymind-XUlsF9LYeVk-unsplash.png)
 
 ## Mute chat within XX hours
 ```md
 thread time muting
 ```
 - Keep disabled ``has debug time option``
-![Alt text](.\YAIDG\thread-time-muting\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/thread-time-muting/mymind-XUlsF9LYeVk-unsplash.png)
 ## Remove calls tab & camera button
 ```md
 remove calls tab entrypoint
@@ -964,7 +964,7 @@ igd animated avatar stickers
 ```md
 igd long press message action
 ```
-![Alt text](.\YAIDG\igd-long-press-message-action\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/igd-long-press-message-action/mymind-XUlsF9LYeVk-unsplash.png)
 ## Create Images with AI
 ```md
 imagine create
@@ -976,7 +976,7 @@ direct ai agents eligibility = 3
 ```md
 direct composer overflow is composer
 ```
-![Alt text](.\YAIDG\direct-composer-overflow-is-composer\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/direct-composer-overflow-is-composer/mymind-XUlsF9LYeVk-unsplash.png)
 ## Location Sharing
 ```md
 location share xma
@@ -1006,17 +1006,17 @@ igd android edit message
 igd read receipt control is enabled for open
 ```
 Enabled an option inside each user direct details panel to disable seen states
-![Alt text](.\YAIDG\igd-read-receipt-control-is-enabled-for-open\mymind-XUlsF9LYeVk-unsplash.png"¡)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/igd-read-receipt-control-is-enabled-for-open/mymind-XUlsF9LYeVk-unsplash.png"¡)
 ## New modern design of the "send" button in a chat.
 ```md
 smashable send
 ```
-![Alt text](.\YAIDG\smashable-send\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/smashable-send/mymind-XUlsF9LYeVk-unsplash.png)
 ## Group invites
 ```md
 igd android groups invites
 ```
-![Alt text](.\YAIDG\igd-android-groups-invites\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/igd-android-groups-invites/mymind-XUlsF9LYeVk-unsplash.png)
 ## Voice messages
 ### 10m voice messages
 ```md
@@ -1026,22 +1026,22 @@ voice msg improvements length increase 10 min
 ```md
 igd voice msg out of chat playback
 ```
-![Alt text](.\YAIDG\igd-voice-msg-out-of-chat-playback\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/igd-voice-msg-out-of-chat-playback/mymind-XUlsF9LYeVk-unsplash.png)
 ### Playback speed
 ```md
 voice msg improvements playback speed enabled
 ```
-![Alt text](.\YAIDG\voice-msg\playback.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/voice-msg/playback.png)
 ### Timer
 ```md
 add audio message timer
 ```
-![Alt text](.\YAIDG\voice-msg\timer.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/voice-msg/timer.png)
 ### Scrubber
 ```md
 voice msg improvements scrubbing handle enabled
 ```
-![Alt text](.\YAIDG\voice-msg\scrubber.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/voice-msg/scrubber.png)
 ### Listened state
 ```md
 voice msg improvements listened statestyling enabled
@@ -1055,7 +1055,7 @@ Removed in newer versions
 ```md
 snapshot messages per thread count
 ```
-![Alt text](.\YAIDG\snapshot-messages-per-thread-count\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/snapshot-messages-per-thread-count/mymind-XUlsF9LYeVk-unsplash.png)
 ## Chat with IA
 ```md
 direct ai agents
@@ -1072,7 +1072,7 @@ should disable swipe to direct
 ```md
 direct media stacks enabled
 ```
-![Alt text](.\YAIDG\direct-media-stacks-enabled\mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/direct-media-stacks-enabled/mymind-XUlsF9LYeVk-unsplash.png)
 ## Media previews before sending
 ```md
 igd android media preview
