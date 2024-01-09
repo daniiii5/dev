@@ -1,0 +1,32 @@
+[
+    {
+        "category": "",
+        "name": "",
+        "description": "",
+        "flags": [],
+        "sub": []
+    },
+    {
+        "category": "",
+        "name": "",
+        "description": "",
+        "flags": [],
+        "sub": [
+            {
+                "category": "",
+                "name": "",
+                "description": "",
+                "flags": [],
+                "sub": [
+                    {
+                        "category": "",
+                        "name": "",
+                        "description": "",
+                        "flags": [],
+                        "sub": []
+                    }
+                ]
+            }
+        ]
+    }
+]
