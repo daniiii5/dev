@@ -243,7 +243,7 @@ google play update api
 ensure 1440p photo upload
 ```
 By default the photos you upload to stories are 1080, enabling this setting will increase the resolution up to 1440.
-![Alt text](../../assets/media/fc84589ad9d03c89b41a4.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/1440/mymind-XUlsF9LYeVk-unsplash.png)
 
 ## Reduce compression of photo uploads in the feed
 ```md
