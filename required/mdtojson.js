@@ -13,7 +13,6 @@ let endArray = []
             let category = mainElement.slice(0, mainElement.indexOf("\n"))
             let finalArray = []
             
-            
             mainElement.replace(category,"").split("## ").forEach((secondElement, pos) => {
                 let title
                 let flags = []  
