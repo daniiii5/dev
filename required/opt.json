@@ -1,0 +1,11 @@
+# Profile\n\n## Highlights design\n\n```md\njapan labs my week is edit header enable\n```\n\nEnable a new edit button over your profile highlights, you can enable some settings\n\n-   [My week](#my-week)\n-   [Highlights tray as cards](#highlights-tray-as-cards) (new versions)\n\n
+
+
+
+{
+    "category":"Profile",
+    "title":"Highlights design",
+    "description":"Enable a new edit button over your profile highlights, you can enable some settings",
+    "flags":["japan labs my week is edit header enable"],
+    "requirements":["#my-week","#highlights-tray-as-cards"]
+}
