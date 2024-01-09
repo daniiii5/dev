@@ -10,8 +10,7 @@ Credits:
 - [@MyInsta | InstaDM - Guide](https://t.me/instasmashguide)
 ## How to enable/disable flags
 
-<video height="auto" width="100%" autoplay loop src="../../assets/media/main.mp4" controls title="Title"></video>
-    
+<video height="auto" width="100%" autoplay loop src="https://github.com/daniiii5/assets/blob/main/media/main.mp4" controls title="Title"></video>
 <!-- Table of contents --->
 # Index
 
@@ -227,7 +226,7 @@ Enables all settings for you even if your account is not eligible for these
 analytics2 consolidation max batch lock attempts
 ```
 When this option is set to 0, the application prevents the creation of files in the "app_analytics" folder, which allows you to keep a correct size of the application.
-<video height="auto" width="100%" autoplay loop src="../../assets/media/634a233671cf3deded0c5.mp4" controls title="Title"></video>
+<video height="auto" width="100%" autoplay loop src="https://github.com/daniiii5/assets/blob/main/media/634a233671cf3deded0c5.mp4" controls title="Title"></video>
 
 ## Remove annoying play store update dialog
 ```md
@@ -243,7 +242,7 @@ google play update api
 ensure 1440p photo upload
 ```
 By default the photos you upload to stories are 1080, enabling this setting will increase the resolution up to 1440.
-![Alt text](https://github.com/daniiii5/assets/blob/main/YAIDG/1440/mymind-XUlsF9LYeVk-unsplash.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/fc84589ad9d03c89b41a4.png)
 
 ## Reduce compression of photo uploads in the feed
 ```md
@@ -251,7 +250,7 @@ photo creation
 ```
 70 = 30% compression
 100 = 0% compression (without compression)
-![Alt text](../../assets/media/035e2b53ab91ab9b577b3.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/035e2b53ab91ab9b577b3.png)
 
 ## High quality video uploads on stories and reels
 ```md
@@ -260,11 +259,11 @@ high quality upload setting
 Enter the name and enable the toggle and put the bitrate mbps to 20 (recommended).
 
 You can change it to 20 if you use video with 1080p or 1440p resolution (for slightly better compression). And the maximum bitrate you can use is 30 (suitable for 4k video) but there is a possibility that the video will fail to upload if you use bitrate above 25Mbps so be careful.
-![Alt text](../../assets/media/5ffafb8221b9b6a6a0df9.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/5ffafb8221b9b6a6a0df9.png)
 
 
 After enabling the setting restart the app, and then go to the Instagram settings > Account or Preferences > Cellular data use > and turn on the "Upload at highest quality" option.
-![Alt text](../../assets/media/582dc729c6949ae11ead4.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/582dc729c6949ae11ead4.png)
 <br />
 <br />
 <br />
@@ -309,7 +308,7 @@ Photo preview pending
 filled tab icons
 ```
 Only works for the buttons on the bottom row.
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## New dark mode
 ```md
 igds prism launcher config android
@@ -325,7 +324,7 @@ is mw bottom padding enabled
 comment sheet multi tabs
 ```
 The is share tab enabled option inside this flag can cause in some version a crash when trying to open a post in feed comments through the See all comments, instead press the comments action to open comments
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Open links in external browser
 ```md
 should override to external browser
@@ -344,7 +343,7 @@ New media button in dm, with some cools features
 ```md
 avatar in standard tray
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Media previews in stories
 ```md
 media previews in stories tray
@@ -394,7 +393,7 @@ Enable everything except:
 ```md
 icon over ring enabled
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Show save animation
 ```md
 should show save flow on tap
@@ -426,7 +425,7 @@ Attention!!! Only works for reels videos in the main feed. This doesn't work for
 super share
 ```
 Attention!!! Not recommended to activate the 3rd option because the "add X to your story" button doesn't appear on igtv posts and regular video posts in the profile tab & explore tab.
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Reminder post
 ```md
 upcoming events creation
@@ -493,24 +492,24 @@ reels together
 allows you to watch reels with people in your chats or with people you follow and follow back.
 Attention!!! only works on other people who also have this setting enabled.
 Not working in newer versions
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Hide Follow button
 ```md
 android viewer disable follow button
 ```
 Removes the follow button while watching reels.
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Reels seekbar
 ```md
 clips viewer scrubber improvements
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 Set android attachment scrubber duration to 1 to have the scrubber in all reels including short ones
 
 ```md
 preview thumbnails are enabled
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Timestamp
 ```md
 clips relative timestamp
@@ -547,7 +546,7 @@ With this option you can hide or get rid of suggested posts that have certain wo
 reels text to speech
 ```
 This feature is only available for reels and not for stories.
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Floating friend’s likes
 ```md
 clips friendly viewer
@@ -599,17 +598,17 @@ carousel comments with combo button
 ```md
 comment actions menu
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Replies to replies
 ```md
 comments replies to replies
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Comments for you
 ```md
 android comments for you
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 <br />
 <br />
 <br />
@@ -619,8 +618,8 @@ android comments for you
 ```md
 igmwb explore controls
 ```
-![Alt text](../../assets/media/.png)
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Audio preview
 ```md
 clips global audio search
@@ -697,7 +696,7 @@ avatars avatar with music sticker is animated stickers enabled
 ```md
 stop all uploads
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Add comments to stories
 ```md
 story interactions hype
@@ -948,7 +947,7 @@ remove inbox camera entrypoint
 ```md
 long press to theme picker
 ```
-![Alt text](../../assets/media/.png)
+![Alt text](https://github.com/daniiii5/assets/blob/main/media/.png)
 ## Enable gyroscopic themes
 ```md
 igd android gyroscopic themes
