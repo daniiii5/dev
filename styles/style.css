@@ -25,7 +25,7 @@ img {
 }
 
 body {
-    background: #333;
+    background: #131418;
     min-height: 100vh;
     font: 400 16px/1.85 'SF Pro Display', sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -41,7 +41,7 @@ body {
 /* https://codepen.io/chris22smith/pen/RZogMa */
 .bg {
     animation: slide calc(var(--background-speed) * 1s) ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #333 50%, #000 50%);
+    background-image: linear-gradient(-60deg, #333 50%, #131418 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -49,6 +49,9 @@ body {
     right: -50%;
     top: 0;
     z-index: -1;
+
+    /* remove this to show the animation */
+    display: none;
 }
 
 .bg2 {
