@@ -77,18 +77,60 @@ body {
 
 body>div {
     margin: 1rem;
-    background: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.18);
     border-radius: 1rem;
     padding: 1.5rem;
     z-index: 10;
     color: whitesmoke;
     padding: 10px 17px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 code {
     cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 8px;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+}
+
+code:hover {
+    border-color: rgba(222, 0, 7, 0.5);
+    background-color: rgba(222, 0, 7, 0.1);
+}
+
+h2 {
+    color: #de0007;
+}
+
+body>div>div:has(video), body>div>div:has(img) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+img, video {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    /* https://dev.to/martyhimmel/quick-tip-to-stop-flexbox-from-overflowing-peb */
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+@media screen and (max-width: 767px) {
+    img, video {
+        min-width: 100%;
+    }
 }
