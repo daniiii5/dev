@@ -1,19 +1,6 @@
 [
-    [
       {
-        "category": "# Important",
-        "title": "Enable all features",
-        "description": [
-          "Enables all settings for you even if your account is not eligible for these"
-        ],
-        "flags": [
-          "igd xac unbundle"
-        ],
-        "media": [],
-        "suboptions": []
-      },
-      {
-        "category": "# Important",
+        "category": "Important",
         "title": "Remove Instagram analytic telemetry",
         "description": [
           "When this option is set to 0, the application prevents the creation of files in the \"app_analytics\" folder, which allows you to keep a correct size of the application."
@@ -27,7 +14,7 @@
         "suboptions": []
       },
       {
-        "category": "# Important",
+        "category": "Important",
         "title": "Remove annoying play store update dialog",
         "description": [],
         "flags": [
@@ -35,9 +22,7 @@
         ],
         "media": [],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Quality",
         "title": "Upload photos up to 1440p resolution in stories",
@@ -83,9 +68,7 @@
           "https://github.com/daniiii5/assets/blob/main/media/582dc729c6949ae11ead4.png)"
         ],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Audio",
         "title": "Enable 48khz sample rate",
@@ -105,9 +88,7 @@
         ],
         "media": [],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "UI",
         "title": "Customize buttons layout",
@@ -324,9 +305,7 @@
         ],
         "media": [],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Feed",
         "title": "Feed add yours",
@@ -439,9 +418,7 @@
               "suboptions": []
             }
         ]
-      }
-    ],
-    [
+      },
       {
         "category": "Reels and Reels tab",
         "title": "Watch reels with friends",
@@ -702,9 +679,7 @@
           "https://github.com/daniiii5/assets/blob/main/media/.png)"
         ],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Explore",
         "title": "Reduce and hide sensitive content",
@@ -765,9 +740,7 @@
         ],
         "media": [],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Stories",
         "title": "Rounded edges on the mentioned story",
@@ -1006,9 +979,7 @@
           "https://github.com/daniiii5/assets/blob/main/YAIDG/profile-post-story-directly-to-highlights/mymind-XUlsF9LYeVk-unsplash.png)"
         ],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Camera",
         "title": "Change filters new icon",
@@ -1032,9 +1003,7 @@
           "https://github.com/daniiii5/assets/blob/main/YAIDG/fonts/mymind-XUlsF9LYeVk-unsplash.png)"
         ],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Direct",
         "title": "Enable normal notes",
@@ -1734,9 +1703,7 @@
         ],
         "media": [],
         "suboptions": []
-      }
-    ],
-    [
+      },
       {
         "category": "Profile",
         "title": "Highlights design",
@@ -1951,6 +1918,29 @@
         ],
         "media": [],
         "suboptions": []
+      },
+      {
+        "category": "Important",
+        "title": "Enable all features",
+        "description": [
+          "Enables all settings for you even if your account is not eligible for these"
+        ],
+        "flags": [
+          "igd xac unbundle"
+        ],
+        "media": [],
+        "suboptions": []
+      },
+      {
+        "category": "Important",
+        "title": "TEST1234",
+        "description": [
+          "1Enables all settings for you even if your account is not eligible for these"
+        ],
+        "flags": [
+          "1igd xac unbundle"
+        ],
+        "media": [],
+        "suboptions": []
       }
-    ]
   ]
