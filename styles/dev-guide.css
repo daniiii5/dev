@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 16px
+}
+
+h6 {
+    font-size: 14px
+}
+
+a {
+    color: currentColor;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #de0007;
+}
+
+footer {
+    margin: 0 auto 1rem auto;
+}
+
+small {
+    font-size: 14px
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+img {
+    pointer-events: none;
+}
+
+body {
+    background: #131418;
+    min-height: 100vh;
+    font: 400 16px/1.85 'SF Pro Display', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    color: #fff !important;
+}
