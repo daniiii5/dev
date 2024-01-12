@@ -73,6 +73,9 @@
 
     document.querySelector('main').innerHTML = objectToHTML(devOptions); // transform the object into an HTML string and append it
 
+    // scroll to the selected card (if present)
+    if (window.location.hash) document.querySelector(window.location.hash).scrollIntoView();
+
     document.querySelectorAll('code').forEach((codeBlock) => {
         // copy the flag on click of the code block
         codeBlock.addEventListener('click', (ev) => navigator.clipboard.writeText(ev.target.textContent));
@@ -82,7 +85,7 @@
     document.querySelectorAll('h2').forEach((h2) =>
         h2.addEventListener('click', (ev) => {
             window.location.hash = '#' + ev.target.textContent.split('#')[1].trim().replaceAll(' ', '-').toLowerCase();
-            navigator.clipboard.writeText(window.location.href); // FIXME: pasting this url should automatically scroll to the corresponding card but it doesn't
+            navigator.clipboard.writeText(window.location.href);
         })
     );
 })();
