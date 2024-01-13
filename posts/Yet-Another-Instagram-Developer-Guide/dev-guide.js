@@ -56,7 +56,7 @@
     const devOptions = Array.from(
         await // fetch the json file
         (
-            await fetch('../dev-options.json')
+            await fetch('./dev-options.json')
         )
             // transform into a js object
             .json()
