@@ -2,8 +2,12 @@
     {
         "category": "Important",
         "title": "Enable all features",
-        "description": ["Enables all settings for you even if your account is not eligible for these"],
-        "flags": ["igd xac unbundle"],
+        "description": [
+            "Enables all settings for you even if your account is not eligible for these"
+        ],
+        "flags": [
+            "igd xac unbundle"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -13,15 +17,21 @@
         "description": [
             "When this option is set to 0, the application prevents the creation of files in the \"app_analytics\" folder, which allows you to keep a correct size of the application."
         ],
-        "flags": ["analytics2 consolidation max batch lock attempts"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/634a233671cf3deded0c5.mp4"],
+        "flags": [
+            "analytics2 consolidation max batch lock attempts"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/634a233671cf3deded0c5.mp4"
+        ],
         "suboptions": []
     },
     {
         "category": "Important",
         "title": "Remove annoying play store update dialog",
         "description": [],
-        "flags": ["google play update api"],
+        "flags": [
+            "google play update api"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -31,16 +41,27 @@
         "description": [
             "By default the photos you upload to stories are 1080, enabling this setting will increase the resolution up to 1440."
         ],
-        "flags": ["ensure 1440p photo upload"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/fc84589ad9d03c89b41a4.png"],
+        "flags": [
+            "ensure 1440p photo upload"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/fc84589ad9d03c89b41a4.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Quality",
         "title": "Reduce compression of photo uploads in the feed",
-        "description": ["70 = 30% compression", "100 = 0% compression (without compression)"],
-        "flags": ["photo creation"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/035e2b53ab91ab9b577b3.png"],
+        "description": [
+            "70 = 30% compression",
+            "100 = 0% compression (without compression)"
+        ],
+        "flags": [
+            "photo creation"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/035e2b53ab91ab9b577b3.png"
+        ],
         "suboptions": []
     },
     {
@@ -51,7 +72,9 @@
             "You can change it to 20 if you use video with 1080p or 1440p resolution (for slightly better compression). And the maximum bitrate you can use is 30 (suitable for 4k video) but there is a possibility that the video will fail to upload if you use bitrate above 25Mbps so be careful.",
             "After enabling the setting restart the app, and then go to the Instagram settings > Account or Preferences > Cellular data use > and turn on the \"Upload at highest quality\" option."
         ],
-        "flags": ["high quality upload setting"],
+        "flags": [
+            "high quality upload setting"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/media/5ffafb8221b9b6a6a0df9.png",
             "https://github.com/daniiii5/assets/raw/main/media/582dc729c6949ae11ead4.png"
@@ -62,7 +85,9 @@
         "category": "Audio",
         "title": "Enable 48khz sample rate",
         "description": [],
-        "flags": ["cameracore fbaudio ig use 48khz sample rate"],
+        "flags": [
+            "cameracore fbaudio ig use 48khz sample rate"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -70,7 +95,9 @@
         "category": "Audio",
         "title": "Enable stereo",
         "description": [],
-        "flags": ["cameracore fbaudio ig use stereo"],
+        "flags": [
+            "cameracore fbaudio ig use stereo"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -91,24 +118,36 @@
             "-   friend_map",
             "-   groups"
         ],
-        "flags": ["panavision nav3"],
+        "flags": [
+            "panavision nav3"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Change activity icon to bell icon",
-        "description": ["Photo preview pending"],
-        "flags": ["bell icon"],
+        "description": [
+            "Photo preview pending"
+        ],
+        "flags": [
+            "bell icon"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Filled bottom row buttons",
-        "description": ["Only works for the buttons on the bottom row."],
-        "flags": ["filled tab icons"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "description": [
+            "Only works for the buttons on the bottom row."
+        ],
+        "flags": [
+            "filled tab icons"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
@@ -117,15 +156,21 @@
         "description": [
             "Enable the new dark mode in instagram, from being an amoled black to a more pleasant dark blue"
         ],
-        "flags": ["igds prism launcher config android"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/prism-launcher/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "igds prism launcher config android"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/prism-launcher/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Fix empty space below bottom navigation bar",
         "description": [],
-        "flags": ["is mw bottom padding enabled"],
+        "flags": [
+            "is mw bottom padding enabled"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -135,15 +180,21 @@
         "description": [
             "The is share tab enabled option inside this flag can cause in some version a crash when trying to open a post in feed comments through the See all comments, instead press the comments action to open comments"
         ],
-        "flags": ["comment sheet multi tabs"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "comment sheet multi tabs"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Open links in external browser",
         "description": [],
-        "flags": ["should override to external browser"],
+        "flags": [
+            "should override to external browser"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -151,15 +202,23 @@
         "category": "UI",
         "title": "New stories stickers menu design",
         "description": [],
-        "flags": ["stories sticker tray redesign"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/sticker-tray-redesign/right.png"],
+        "flags": [
+            "stories sticker tray redesign"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/sticker-tray-redesign/right.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Convos reshare",
-        "description": ["New media button in dm, with some cools features"],
-        "flags": ["convos reshare hub"],
+        "description": [
+            "New media button in dm, with some cools features"
+        ],
+        "flags": [
+            "convos reshare hub"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -167,15 +226,21 @@
         "category": "UI",
         "title": "User avatar size in stories tray",
         "description": [],
-        "flags": ["avatar in standard tray"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "avatar in standard tray"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Media previews in stories",
         "description": [],
-        "flags": ["media previews in stories tray"],
+        "flags": [
+            "media previews in stories tray"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/media-preview-in-stories-tray/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -185,8 +250,12 @@
         "category": "UI",
         "title": "Direct new icon",
         "description": [],
-        "flags": ["direct interop rebrand"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/interop-rebrand/interop-rebrand.png"],
+        "flags": [
+            "direct interop rebrand"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/interop-rebrand/interop-rebrand.png"
+        ],
         "suboptions": []
     },
     {
@@ -199,23 +268,33 @@
             "-   fetch channels on startup (this makes unloadable direct list)",
             "-   decline invitations from inbox enabled"
         ],
-        "flags": ["channels inbox discovery"],
-        "media": ["    https://github.com/daniiii5/assets/raw/main/YAIDG/channels-tab/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "channels inbox discovery"
+        ],
+        "media": [
+            "    https://github.com/daniiii5/assets/raw/main/YAIDG/channels-tab/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Plus button in stories tray",
         "description": [],
-        "flags": ["icon over ring enabled"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "icon over ring enabled"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "UI",
         "title": "Show save animation",
         "description": [],
-        "flags": ["should show save flow on tap"],
+        "flags": [
+            "should show save flow on tap"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -223,7 +302,9 @@
         "category": "UI",
         "title": "Fundraiser redesign",
         "description": [],
-        "flags": ["fundraiser donation sheet redesign"],
+        "flags": [
+            "fundraiser donation sheet redesign"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -231,7 +312,9 @@
         "category": "UI",
         "title": "New swipe to camera animation",
         "description": [],
-        "flags": ["camera android nav3 bottom creation animation"],
+        "flags": [
+            "camera android nav3 bottom creation animation"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -239,7 +322,9 @@
         "category": "Feed",
         "title": "Feed add yours",
         "description": [],
-        "flags": [""],
+        "flags": [
+            ""
+        ],
         "media": [],
         "suboptions": []
     },
@@ -249,8 +334,12 @@
         "description": [
             "Attention!!! Only works for reels videos in the main feed. This doesn't work for igtv, regular video, and carousel videos in the following & favorites tabs, explore tab, and profile tab."
         ],
-        "flags": ["scrubber in expanded video"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/scrubber/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "scrubber in expanded video"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/scrubber/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
@@ -259,24 +348,36 @@
         "description": [
             "Attention!!! Not recommended to activate the 3rd option because the \"add X to your story\" button doesn't appear on igtv posts and regular video posts in the profile tab & explore tab."
         ],
-        "flags": ["super share"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "super share"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Feed",
         "title": "Reminder post",
         "description": [],
-        "flags": ["upcoming events creation"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/reminder/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "upcoming events creation"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/reminder/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Feed",
         "title": "Comments translations",
         "description": [],
-        "flags": ["comments translations"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/translation/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "comments translations"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/translation/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
@@ -285,15 +386,23 @@
         "description": [
             "Enable everything, and modify add top story hscroll to 0 if you want the add to story button, or set it to 1 to remove it"
         ],
-        "flags": ["super share v3"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/super-share-v3/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "super share v3"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/super-share-v3/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Feed",
         "title": "Add notes to posts/reels",
-        "description": ["No preview until it works again"],
-        "flags": ["content notes"],
+        "description": [
+            "No preview until it works again"
+        ],
+        "flags": [
+            "content notes"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -301,7 +410,9 @@
         "category": "Feed",
         "title": "Audience controls",
         "description": [],
-        "flags": ["audience controls"],
+        "flags": [
+            "audience controls"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/audience-controls/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -310,7 +421,9 @@
                 "category": "Feed",
                 "title": "Old versions",
                 "description": [],
-                "flags": ["simplified post layout"],
+                "flags": [
+                    "simplified post layout"
+                ],
                 "media": [
                     "https://github.com/daniiii5/assets/raw/main/YAIDG/emhasized/2mymind-XUlsF9LYeVk-unsplash.png"
                 ],
@@ -326,47 +439,77 @@
             "Attention!!! only works on other people who also have this setting enabled.",
             "Not working in newer versions"
         ],
-        "flags": ["reels together"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "reels together"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Hide Follow button",
-        "description": ["Removes the follow button while watching reels."],
-        "flags": ["android viewer disable follow button"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "description": [
+            "Removes the follow button while watching reels."
+        ],
+        "flags": [
+            "android viewer disable follow button"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Timestamp",
-        "description": ["Enter the name and enable all the toggles.", "Removed in newer versions"],
-        "flags": ["clips relative timestamp"],
+        "description": [
+            "Enter the name and enable all the toggles.",
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "clips relative timestamp"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Show the number of views on your own reels",
-        "description": ["Show the ammount of users that have seen your reel", "No idea why it does not work"],
-        "flags": ["reels played by"],
+        "description": [
+            "Show the ammount of users that have seen your reel",
+            "No idea why it does not work"
+        ],
+        "flags": [
+            "reels played by"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Caption translations",
-        "description": ["Only activate the 1st option."],
-        "flags": ["clips viewer caption see translation"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/translation/translation.png"],
+        "description": [
+            "Only activate the 1st option."
+        ],
+        "flags": [
+            "clips viewer caption see translation"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/translation/translation.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Swipe left to view profile",
-        "description": ["Only works on reels tab."],
-        "flags": ["swipe to profile"],
+        "description": [
+            "Only works on reels tab."
+        ],
+        "flags": [
+            "swipe to profile"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -376,31 +519,47 @@
         "description": [
             "With this option you can hide or get rid of suggested posts that have certain words and emojis in the captions of the video, after adding the word you want to hide then all suggested posts that have that word in their captions 'will not' appear in your feed and reels tab as suggested posts."
         ],
-        "flags": ["hide unconnected posts with words"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/remove/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "hide unconnected posts with words"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/remove/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Text to speech",
-        "description": ["This feature is only available for reels and not for stories."],
-        "flags": ["reels text to speech"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "description": [
+            "This feature is only available for reels and not for stories."
+        ],
+        "flags": [
+            "reels text to speech"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Floating friend’s likes",
         "description": [],
-        "flags": ["clips friendly viewer"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/floating/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "clips friendly viewer"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/floating/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Short comment hint text",
         "description": [],
-        "flags": ["should shorten comment hint text"],
+        "flags": [
+            "should shorten comment hint text"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -408,15 +567,21 @@
         "category": "Reels and Reels tab",
         "title": "Enable listen in spotify, or add to spotify playlist",
         "description": [],
-        "flags": ["spotify partnership"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/spotify/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "spotify partnership"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/spotify/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Tap to pause",
         "description": [],
-        "flags": ["reels tap to pause"],
+        "flags": [
+            "reels tap to pause"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -424,23 +589,33 @@
         "category": "Reels and Reels tab",
         "title": "Enable longer reels",
         "description": [],
-        "flags": ["reels duration"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/DURATION/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "reels duration"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/DURATION/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Download reels",
         "description": [],
-        "flags": ["reels third party downloads"],
+        "flags": [
+            "reels third party downloads"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Share comments",
-        "description": ["Pending serverside release on my account"],
-        "flags": ["conversations comment reshares"],
+        "description": [
+            "Pending serverside release on my account"
+        ],
+        "flags": [
+            "conversations comment reshares"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -448,14 +623,22 @@
         "category": "Reels and Reels tab",
         "title": "Avatar comments",
         "description": [],
-        "flags": ["avatars in comments"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/avatarincmd/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "avatars in comments"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/avatarincmd/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": [
             {
                 "category": "Reels and Reels tab",
                 "title": "Old versions",
-                "description": [""],
-                "flags": ["carousel slide comments"],
+                "description": [
+                    ""
+                ],
+                "flags": [
+                    "carousel slide comments"
+                ],
                 "media": [],
                 "suboptions": []
             },
@@ -463,7 +646,9 @@
                 "category": "Reels and Reels tab",
                 "title": "New versions",
                 "description": [],
-                "flags": ["carousel comments with combo button"],
+                "flags": [
+                    "carousel comments with combo button"
+                ],
                 "media": [
                     "https://github.com/daniiii5/assets/raw/main/YAIDG/mention-post/mymind-XUlsF9LYeVk-unsplash.png"
                 ],
@@ -475,31 +660,45 @@
         "category": "Reels and Reels tab",
         "title": "New comments menu",
         "description": [],
-        "flags": ["comment actions menu"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "comment actions menu"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Replies to replies",
         "description": [],
-        "flags": ["comments replies to replies"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "comments replies to replies"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Reels and Reels tab",
         "title": "Comments for you",
         "description": [],
-        "flags": ["android comments for you"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "android comments for you"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Explore",
         "title": "Reduce and hide sensitive content",
         "description": [],
-        "flags": ["igmwb explore controls"],
+        "flags": [
+            "igmwb explore controls"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/media/.png",
             "https://github.com/daniiii5/assets/raw/main/media/.png"
@@ -510,15 +709,21 @@
         "category": "Explore",
         "title": "Audio preview",
         "description": [],
-        "flags": ["clips global audio search"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/music-search/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "clips global audio search"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/music-search/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Explore",
         "title": "Increase audio preview duration",
         "description": [],
-        "flags": ["audio page music preview duration"],
+        "flags": [
+            "audio page music preview duration"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/long-music-preview/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -528,71 +733,110 @@
         "category": "Explore",
         "title": "Mutual filters",
         "description": [],
-        "flags": ["stories mutuals filter"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/mutuals/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "stories mutuals filter"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/mutuals/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Explore",
         "title": "New search tab design",
-        "description": ["Long press search icon to search"],
-        "flags": ["reels subtab"],
+        "description": [
+            "Long press search icon to search"
+        ],
+        "flags": [
+            "reels subtab"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Rounded edges on the mentioned story",
-        "description": ["When resharing a story where you have been mentioned, no sound will be audible"],
-        "flags": ["stories mention reshare video sticker"],
+        "description": [
+            "When resharing a story where you have been mentioned, no sound will be audible"
+        ],
+        "flags": [
+            "stories mention reshare video sticker"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Sound button",
-        "description": ["Can be enabled, but wont work in newer versions"],
-        "flags": ["stories sound indicator"],
+        "description": [
+            "Can be enabled, but wont work in newer versions"
+        ],
+        "flags": [
+            "stories sound indicator"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Move the progress bar to the bottom",
-        "description": ["Removed in newer versions"],
-        "flags": ["stories bottom progress bar"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "stories bottom progress bar"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Custom replies",
-        "description": ["Reply to stories with media, camera, stickersm emojis, gifs or reacts"],
-        "flags": ["reply types"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/reply-types/reply.png"],
+        "description": [
+            "Reply to stories with media, camera, stickersm emojis, gifs or reacts"
+        ],
+        "flags": [
+            "reply types"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/reply-types/reply.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Story user search",
-        "description": ["Removed in newer versions"],
-        "flags": ["story dashboard search"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "story dashboard search"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Messenger and Reply icons in viewer list",
-        "description": ["Only 1", "Pending animation preview"],
-        "flags": ["ios spark viewer list message icon"],
+        "description": [
+            "Only 1",
+            "Pending animation preview"
+        ],
+        "flags": [
+            "ios spark viewer list message icon"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Custom color stickers",
-        "description": ["Working for location, mention, link, and hashtag stickers."],
-        "flags": ["stories custom color gradient stickers"],
+        "description": [
+            "Working for location, mention, link, and hashtag stickers."
+        ],
+        "flags": [
+            "stories custom color gradient stickers"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -600,7 +844,9 @@
         "category": "Stories",
         "title": "Music sticker with avatar stickers",
         "description": [],
-        "flags": ["avatars avatar with music sticker"],
+        "flags": [
+            "avatars avatar with music sticker"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -608,39 +854,59 @@
         "category": "Stories",
         "title": "Music sticker with animated avatar stickers",
         "description": [],
-        "flags": ["avatars avatar with music sticker is animated stickers enabled"],
-        "media": ["YAIDG/avatar-in-song-pill/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "avatars avatar with music sticker is animated stickers enabled"
+        ],
+        "media": [
+            "YAIDG/avatar-in-song-pill/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Option to cancel all ongoing uploads",
         "description": [],
-        "flags": ["stop all uploads"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "stop all uploads"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Add comments to stories",
-        "description": ["Pending launch"],
-        "flags": ["story interactions hype"],
+        "description": [
+            "Pending launch"
+        ],
+        "flags": [
+            "story interactions hype"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Request Mention",
-        "description": ["Removed in newer versions"],
-        "flags": ["stories request mention"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "stories request mention"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Archive posted stories",
-        "description": ["Removed in newer versions"],
-        "flags": ["stories archive refactor"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "stories archive refactor"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -648,23 +914,33 @@
         "category": "Stories",
         "title": "Multiple close friends lists",
         "description": [],
-        "flags": ["private lists"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/private-lists/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "private lists"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/private-lists/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Enable story snapshot",
         "description": [],
-        "flags": ["story snapshot"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/snapshot/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "story snapshot"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/snapshot/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Stories",
         "title": "Disable cubic animation",
         "description": [],
-        "flags": ["stories viewer preq cube"],
+        "flags": [
+            "stories viewer preq cube"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -672,7 +948,9 @@
         "category": "Stories",
         "title": "Add yours sticker button in the camera section",
         "description": [],
-        "flags": ["add yours browser"],
+        "flags": [
+            "add yours browser"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -682,7 +960,9 @@
         "description": [
             "Not working for now, if you try this feature you will end with a story error, a video that you will not be able to delete"
         ],
-        "flags": ["stories collab stories"],
+        "flags": [
+            "stories collab stories"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/stories-colab-stories/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -692,7 +972,9 @@
         "category": "Stories",
         "title": "Share profile to stories",
         "description": [],
-        "flags": ["share profile to stories"],
+        "flags": [
+            "share profile to stories"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/share-profile-to-stories/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -702,7 +984,9 @@
         "category": "Stories",
         "title": "Post directly to highlights",
         "description": [],
-        "flags": ["profile post story directly to highlights"],
+        "flags": [
+            "profile post story directly to highlights"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/profile-post-story-directly-to-highlights/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -712,72 +996,116 @@
         "category": "Camera",
         "title": "Change filters new icon",
         "description": [],
-        "flags": ["ar effects icon change"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/effects-af/b10ee6107e47a27b55a70.png"],
+        "flags": [
+            "ar effects icon change"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/effects-af/b10ee6107e47a27b55a70.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Camera",
         "title": "New fonts",
         "description": [],
-        "flags": ["camera android reels text expansion"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/fonts/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "camera android reels text expansion"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/fonts/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable normal notes",
-        "description": ["-   Set `hub layout type` to `ONE_ROW_POGS_2`"],
-        "flags": ["cf hub"],
+        "description": [
+            "-   Set `hub layout type` to `ONE_ROW_POGS_2`"
+        ],
+        "flags": [
+            "cf hub"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Music in notes",
-        "description": [""],
-        "flags": ["music notes"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/notes/music.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "music notes"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/notes/music.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Location notes",
-        "description": ["-   Keep disabled `is text required for sharing`"],
-        "flags": ["location notes"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/notes/location.png"],
+        "description": [
+            "-   Keep disabled `is text required for sharing`"
+        ],
+        "flags": [
+            "location notes"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/notes/location.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Videos in notes",
-        "description": [""],
-        "flags": ["notes profile video"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes profile video"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Questions & Answers",
-        "description": [""],
-        "flags": ["notes prompts"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes prompts"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable lives in notes",
-        "description": [""],
-        "flags": ["live notes"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/notes/live.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "live notes"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/notes/live.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable voice recordings in notes",
-        "description": ["-   Keep disabled `internal only`"],
-        "flags": ["audio notes config"],
-        "media": ["    https://github.com/daniiii5/assets/raw/main/YAIDG/notes/audios.png"],
+        "description": [
+            "-   Keep disabled `internal only`"
+        ],
+        "flags": [
+            "audio notes config"
+        ],
+        "media": [
+            "    https://github.com/daniiii5/assets/raw/main/YAIDG/notes/audios.png"
+        ],
         "suboptions": []
     },
     {
@@ -788,87 +1116,133 @@
             "    Optional enabling `should expose on inbox open`",
             ""
         ],
-        "flags": ["notes replies"],
+        "flags": [
+            "notes replies"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable sticker replies",
-        "description": [""],
-        "flags": ["notes sticker replies"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes sticker replies"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Happy new year confetti animation",
-        "description": [""],
-        "flags": ["notes visual effects"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes visual effects"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Translate notes",
-        "description": [""],
-        "flags": ["see translation notes"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/notes/translation.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "see translation notes"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/notes/translation.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Post note for followers, following or close friends",
-        "description": [""],
-        "flags": ["notes audience expansion"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/notes/audience.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes audience expansion"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/notes/audience.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Open profile when pressing it",
-        "description": [""],
-        "flags": ["notes profile pic tap reply sheet"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes profile pic tap reply sheet"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Send notes as ampersand",
-        "description": [""],
-        "flags": ["group notes"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "group notes"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Show notes in profile",
-        "description": [""],
-        "flags": ["notes on profile"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes on profile"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable tap profile to open user story",
-        "description": [""],
-        "flags": ["stories in notes"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "stories in notes"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Set audience notes",
-        "description": [""],
-        "flags": ["notes audience expansion"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "notes audience expansion"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "**Must not**",
-        "description": ["Don't enable this, otherwise you wont be able to reply to notes"],
-        "flags": ["send share manager v2 enable notes reply"],
+        "description": [
+            "Don't enable this, otherwise you wont be able to reply to notes"
+        ],
+        "flags": [
+            "send share manager v2 enable notes reply"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -878,15 +1252,22 @@
         "description": [
             "Attention!!! not working in all chats, i don't know how instagram chose it but if you see a banner in a chat to translate this chat it means you can activate this feature in this chat from the chat details, if not then you cannot activate it in any other way."
         ],
-        "flags": ["igd android thread translation is enabled"],
+        "flags": [
+            "igd android thread translation is enabled"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Resize preview of shared reels",
-        "description": ["-   Default: `164`", "-   Max: `300`"],
-        "flags": ["clips direct reshare size"],
+        "description": [
+            "-   Default: `164`",
+            "-   Max: `300`"
+        ],
+        "flags": [
+            "clips direct reshare size"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -894,15 +1275,21 @@
         "category": "Direct",
         "title": "Autoplay preview of shared reels",
         "description": [],
-        "flags": ["full autoplay enabled"],
+        "flags": [
+            "full autoplay enabled"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Messages forwarding",
-        "description": [""],
-        "flags": ["direct forwarding"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "direct forwarding"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -910,7 +1297,9 @@
         "category": "Direct",
         "title": "Reels forward button",
         "description": [],
-        "flags": ["reels direct message forwarding"],
+        "flags": [
+            "reels direct message forwarding"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -921,7 +1310,9 @@
             "-   Keep disabled show privacy buttons on main page",
             "-   Keep disabled use alternate privacy icon"
         ],
-        "flags": ["direct thread details redesign"],
+        "flags": [
+            "direct thread details redesign"
+        ],
         "media": [
             "    https://github.com/daniiii5/assets/raw/main/YAIDG/direct-thread-details-redesign/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -930,8 +1321,12 @@
     {
         "category": "Direct",
         "title": "Mute chat within XX hours",
-        "description": ["-   Keep disabled `has debug time option`"],
-        "flags": ["thread time muting"],
+        "description": [
+            "-   Keep disabled `has debug time option`"
+        ],
+        "flags": [
+            "thread time muting"
+        ],
         "media": [
             "    https://github.com/daniiii5/assets/raw/main/YAIDG/thread-time-muting/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -941,15 +1336,21 @@
         "category": "Direct",
         "title": "Long press to change chat theme",
         "description": [],
-        "flags": ["long press to theme picker"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/media/.png"],
+        "flags": [
+            "long press to theme picker"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/media/.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Enable gyroscopic themes",
         "description": [],
-        "flags": ["igd android gyroscopic themes"],
+        "flags": [
+            "igd android gyroscopic themes"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -957,7 +1358,9 @@
         "category": "Direct",
         "title": "Swipe to open chat details",
         "description": [],
-        "flags": ["swipe to thread details"],
+        "flags": [
+            "swipe to thread details"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -965,7 +1368,9 @@
         "category": "Direct",
         "title": "Animated avatar stickers",
         "description": [],
-        "flags": ["igd animated avatar stickers"],
+        "flags": [
+            "igd animated avatar stickers"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -973,7 +1378,9 @@
         "category": "Direct",
         "title": "New layout of long press menu",
         "description": [],
-        "flags": ["igd long press message action"],
+        "flags": [
+            "igd long press message action"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/igd-long-press-message-action/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -983,7 +1390,9 @@
         "category": "Direct",
         "title": "Enable dropdown menu",
         "description": [],
-        "flags": ["direct composer overflow is composer"],
+        "flags": [
+            "direct composer overflow is composer"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/direct-composer-overflow-is-composer/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -993,14 +1402,20 @@
         "category": "Direct",
         "title": "Avatar powerups",
         "description": [],
-        "flags": ["avatar powerups"],
+        "flags": [
+            "avatar powerups"
+        ],
         "media": [],
         "suboptions": [
             {
                 "category": "Direct",
                 "title": "New versions",
-                "description": [""],
-                "flags": ["igd android pin threads"],
+                "description": [
+                    ""
+                ],
+                "flags": [
+                    "igd android pin threads"
+                ],
                 "media": [],
                 "suboptions": []
             },
@@ -1008,7 +1423,9 @@
                 "category": "Direct",
                 "title": "Maybe old versions?",
                 "description": [],
-                "flags": ["thread pinning"],
+                "flags": [
+                    "thread pinning"
+                ],
                 "media": [],
                 "suboptions": []
             }
@@ -1018,15 +1435,21 @@
         "category": "Direct",
         "title": "Edit messages",
         "description": [],
-        "flags": ["igd android edit message"],
+        "flags": [
+            "igd android edit message"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Disable read receipts",
-        "description": ["Enabled an option inside each user direct details panel to disable seen states"],
-        "flags": ["igd read receipt control is enabled for open"],
+        "description": [
+            "Enabled an option inside each user direct details panel to disable seen states"
+        ],
+        "flags": [
+            "igd read receipt control is enabled for open"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/igd-read-receipt-control-is-enabled-for-open/mymind-XUlsF9LYeVk-unsplash.png\"¡)"
         ],
@@ -1036,15 +1459,21 @@
         "category": "Direct",
         "title": "New modern design of the \"send\" button in a chat.",
         "description": [],
-        "flags": ["smashable send"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/smashable-send/mymind-XUlsF9LYeVk-unsplash.png"],
+        "flags": [
+            "smashable send"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/smashable-send/mymind-XUlsF9LYeVk-unsplash.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Group invites",
         "description": [],
-        "flags": ["igd android groups invites"],
+        "flags": [
+            "igd android groups invites"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/igd-android-groups-invites/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -1053,16 +1482,24 @@
     {
         "category": "Direct",
         "title": "10m voice messages",
-        "description": [""],
-        "flags": ["voice msg improvements length increase 10 min"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "voice msg improvements length increase 10 min"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Playing out of chat",
-        "description": [""],
-        "flags": ["igd voice msg out of chat playback"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "igd voice msg out of chat playback"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/igd-voice-msg-out-of-chat-playback/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -1071,40 +1508,64 @@
     {
         "category": "Direct",
         "title": "Playback speed",
-        "description": [""],
-        "flags": ["voice msg improvements playback speed enabled"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/playback.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "voice msg improvements playback speed enabled"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/playback.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Timer",
-        "description": [""],
-        "flags": ["add audio message timer"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/timer.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "add audio message timer"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/timer.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Scrubber",
-        "description": [""],
-        "flags": ["voice msg improvements scrubbing handle enabled"],
-        "media": ["https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/scrubber.png"],
+        "description": [
+            ""
+        ],
+        "flags": [
+            "voice msg improvements scrubbing handle enabled"
+        ],
+        "media": [
+            "https://github.com/daniiii5/assets/raw/main/YAIDG/voice-msg/scrubber.png"
+        ],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Listened state",
         "description": [],
-        "flags": ["voice msg improvements listened statestyling enabled"],
+        "flags": [
+            "voice msg improvements listened statestyling enabled"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "In chat search",
-        "description": ["Removed in newer versions"],
-        "flags": ["in thread content search"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "in thread content search"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1112,7 +1573,9 @@
         "category": "Direct",
         "title": "Threshold for displaying the number of unread messages",
         "description": [],
-        "flags": ["snapshot messages per thread count"],
+        "flags": [
+            "snapshot messages per thread count"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/snapshot-messages-per-thread-count/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -1122,7 +1585,9 @@
         "category": "Direct",
         "title": "Disable swipe to direct",
         "description": [],
-        "flags": ["should disable swipe to direct"],
+        "flags": [
+            "should disable swipe to direct"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1130,7 +1595,9 @@
         "category": "Direct",
         "title": "Media stacks enabled",
         "description": [],
-        "flags": ["direct media stacks enabled"],
+        "flags": [
+            "direct media stacks enabled"
+        ],
         "media": [
             "https://github.com/daniiii5/assets/raw/main/YAIDG/direct-media-stacks-enabled/mymind-XUlsF9LYeVk-unsplash.png"
         ],
@@ -1142,23 +1609,33 @@
         "description": [
             "Lets you to preview a line of selected photos, and if you do not have any selected and press one, you will be able to edit the photo"
         ],
-        "flags": ["igd android media preview"],
+        "flags": [
+            "igd android media preview"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Avatar Animation",
-        "description": ["Avatar Animation while reacting to a message"],
-        "flags": ["avatar reactions"],
+        "description": [
+            "Avatar Animation while reacting to a message"
+        ],
+        "flags": [
+            "avatar reactions"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Non text replies",
-        "description": ["Enable replies with photos, videos, audios, etc"],
-        "flags": ["igd non text replies"],
+        "description": [
+            "Enable replies with photos, videos, audios, etc"
+        ],
+        "flags": [
+            "igd non text replies"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1166,7 +1643,9 @@
         "category": "Direct",
         "title": "Reply to links",
         "description": [],
-        "flags": ["direct link replies"],
+        "flags": [
+            "direct link replies"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1174,7 +1653,9 @@
         "category": "Direct",
         "title": "Show avatars in star tab",
         "description": [],
-        "flags": ["igd avatar growth"],
+        "flags": [
+            "igd avatar growth"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1182,15 +1663,21 @@
         "category": "Direct",
         "title": "Set star tab to avatars",
         "description": [],
-        "flags": ["android avatars quick reactions direct receive"],
+        "flags": [
+            "android avatars quick reactions direct receive"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Seen states",
-        "description": ["Show how long the user has read your message instead of \"Seen\" only"],
-        "flags": ["direct seen states in inbox"],
+        "description": [
+            "Show how long the user has read your message instead of \"Seen\" only"
+        ],
+        "flags": [
+            "direct seen states in inbox"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1198,15 +1685,21 @@
         "category": "Direct",
         "title": "IA Message replies",
         "description": [],
-        "flags": ["creator agents suggested replies"],
+        "flags": [
+            "creator agents suggested replies"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Direct",
         "title": "Avatar reactions",
-        "description": ["Adds an avatar to the red heart like animation"],
-        "flags": ["ig4a avatar reactions"],
+        "description": [
+            "Adds an avatar to the red heart like animation"
+        ],
+        "flags": [
+            "ig4a avatar reactions"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1214,7 +1707,9 @@
         "category": "Direct",
         "title": "Delete messages for you",
         "description": [],
-        "flags": ["igd delete messages"],
+        "flags": [
+            "igd delete messages"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1226,22 +1721,32 @@
             "-   [My week](#my-week)",
             "-   [Highlights tray as cards](#highlights-tray-as-cards) (new versions)"
         ],
-        "flags": ["japan labs my week is edit header enable"],
+        "flags": [
+            "japan labs my week is edit header enable"
+        ],
         "media": [],
         "suboptions": [
             {
                 "category": "Profile",
                 "title": "Older versions:",
-                "description": [""],
-                "flags": ["highlight tray as cards"],
+                "description": [
+                    ""
+                ],
+                "flags": [
+                    "highlight tray as cards"
+                ],
                 "media": [],
                 "suboptions": []
             },
             {
                 "category": "Profile",
                 "title": "New versions:",
-                "description": ["Be sure to have Highlights design enabled"],
-                "flags": ["japan labs my week is cards layout enabled"],
+                "description": [
+                    "Be sure to have Highlights design enabled"
+                ],
+                "flags": [
+                    "japan labs my week is cards layout enabled"
+                ],
                 "media": [],
                 "suboptions": []
             }
@@ -1251,7 +1756,9 @@
         "category": "Profile",
         "title": "Highlights grid",
         "description": [],
-        "flags": ["profile highlights click into grid"],
+        "flags": [
+            "profile highlights click into grid"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1259,15 +1766,21 @@
         "category": "Profile",
         "title": "Highlights scrollable media preview",
         "description": [],
-        "flags": ["expression highlights improvements highlights"],
+        "flags": [
+            "expression highlights improvements highlights"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Profile",
         "title": "Schedule posts",
-        "description": ["This feature is only available for professional accounts"],
-        "flags": ["content scheduling"],
+        "description": [
+            "This feature is only available for professional accounts"
+        ],
+        "flags": [
+            "content scheduling"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1275,7 +1788,9 @@
         "category": "Profile",
         "title": "Reels pinning",
         "description": [],
-        "flags": ["clips reels pinning"],
+        "flags": [
+            "clips reels pinning"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1283,7 +1798,9 @@
         "category": "Profile",
         "title": "Show your other account in your username",
         "description": [],
-        "flags": ["mimicry"],
+        "flags": [
+            "mimicry"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1291,7 +1808,9 @@
         "category": "Profile",
         "title": "Remove suggested accounts",
         "description": [],
-        "flags": ["self profile chaining enabled"],
+        "flags": [
+            "self profile chaining enabled"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1299,7 +1818,9 @@
         "category": "Profile",
         "title": "New \"Create\" icon",
         "description": [],
-        "flags": ["is profile creation button icon swap"],
+        "flags": [
+            "is profile creation button icon swap"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1309,39 +1830,57 @@
         "description": [
             "This option should be enabled in your account, it combines the igtv section to the reels section into one section on the profile tab, disable it if you want to get that igtv section back."
         ],
-        "flags": ["consumption merge profile video tabs"],
+        "flags": [
+            "consumption merge profile video tabs"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Profile",
         "title": "Just seen",
-        "description": ["Enables a message when entering the profile of a post from the feed"],
-        "flags": ["profile just watched"],
+        "description": [
+            "Enables a message when entering the profile of a post from the feed"
+        ],
+        "flags": [
+            "profile just watched"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Profile",
         "title": "Profile Interests",
-        "description": ["Animation preview pending"],
-        "flags": ["bio interests"],
+        "description": [
+            "Animation preview pending"
+        ],
+        "flags": [
+            "bio interests"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Profile",
         "title": "Saved subtab in Profile",
-        "description": ["This tab wont load if you have public collections enabled"],
-        "flags": ["saved subtab on profile is enabled"],
+        "description": [
+            "This tab wont load if you have public collections enabled"
+        ],
+        "flags": [
+            "saved subtab on profile is enabled"
+        ],
         "media": [],
         "suboptions": []
     },
     {
         "category": "Profile",
         "title": "New header design",
-        "description": ["Removed in newer versions"],
-        "flags": ["profile header daisy"],
+        "description": [
+            "Removed in newer versions"
+        ],
+        "flags": [
+            "profile header daisy"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1349,7 +1888,9 @@
         "category": "Profile",
         "title": "\"Threads\" button added to profile header tab",
         "description": [],
-        "flags": ["is ig to p92 app switcher enabled android"],
+        "flags": [
+            "is ig to p92 app switcher enabled android"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1357,7 +1898,9 @@
         "category": "Profile",
         "title": "Avatar as profile picture",
         "description": [],
-        "flags": ["is coin flip ssr enabled"],
+        "flags": [
+            "is coin flip ssr enabled"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1369,7 +1912,9 @@
             "It stays on your profile for up to 3 days",
             "You can choose to remove any notes added by your followers"
         ],
-        "flags": ["profile wall notes"],
+        "flags": [
+            "profile wall notes"
+        ],
         "media": [],
         "suboptions": []
     },
@@ -1377,8 +1922,298 @@
         "category": "Profile",
         "title": "Remove highlights in profile",
         "description": [],
-        "flags": ["stories archive negative holdout"],
+        "flags": [
+            "stories archive negative holdout"
+        ],
         "media": [],
         "suboptions": []
+    },
+    {
+        "category": "Feed",
+        "title": "Timestamps",
+        "description": [
+            "Show when was the post/reel posted"
+        ],
+        "flags": [
+            "feed marie kondo android"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Stories",
+        "title": "Add comments to stories",
+        "description": [
+            "Enabled interactions in stories (comments)"
+        ],
+        "flags": [
+            "story interactions hype"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Stories",
+        "title": "Add comments to stories",
+        "description": [
+            "Enabled interactions in stories (comments)"
+        ],
+        "flags": [
+            "story interactions hype"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Filled bar",
+        "description": [
+            "When watching a story, a filled bar is shown instead of an outlined bar"
+        ],
+        "flags": [
+            "stories modernization"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Show live",
+        "description": [
+            "shows live in direct panel over the user's profile picture"
+        ],
+        "flags": [
+            "live android direct"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Reels and Reels tab",
+        "title": "Filter",
+        "description": [
+            "Choose between close reels and following users"
+        ],
+        "flags": [
+            "clips tab dsa"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Direct",
+        "title": "Reply box",
+        "description": [
+            "Show reply box when you open a reel that was sent to you"
+        ],
+        "flags": [
+            "reels consumption v1"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Widget",
+        "description": [
+            "Enabled a new widget to use in your android homescreen"
+        ],
+        "flags": [
+            "direct widget"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Direct",
+        "title": "Silent share",
+        "description": [
+            "Ability to share a post/video without notifying the user"
+        ],
+        "flags": [
+            "send control"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Stories",
+        "title": "Custom emoji reaction",
+        "description": [
+            "Lets you choose more than the preselected emojis to react to a story"
+        ],
+        "flags": [
+            "custom eqr picker"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Liked by author",
+        "description": [
+            "Shows liked by author in reels and feed comments"
+        ],
+        "flags": [
+            "bullying comment liked by author"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Album picker",
+        "description": [
+            "Choose an album, photos or videos to show in the list"
+        ],
+        "flags": [
+            "gallery album picker"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Reels and Reels tab",
+        "title": "Reels map",
+        "description": [
+            "Show reels by location"
+        ],
+        "flags": [
+            "reels map"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Stories",
+        "title": "Spotify share",
+        "description": [
+            "No idea"
+        ],
+        "flags": [
+            "stories spotify audio reshare"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "UI",
+        "title": "Compare activity",
+        "description": [
+            "It is a feature that shows some information between your profile and someone else's."
+        ],
+        "flags": [
+            "shared activity"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Direct",
+        "title": "Roll call",
+        "description": [
+            "Enables a new menu in direct instead the dropdown menu, with the ability to send gifs, stickers, roll call (more like a BeReal copy) and all options enabled that were inside the dropdown"
+        ],
+        "flags": [
+            "roll call"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Direct",
+        "title": "Birthday",
+        "description": [
+            "Enables a birthday toast when entering someone's profile and if it's your birthday this effect appears, it's not working correctly yet"
+        ],
+        "flags": [
+            "ig4a birthday opt in"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
+    },
+    {
+        "category": "Stories",
+        "title": "Zoom stories",
+        "description": [
+            "Enables zooming on stories by pinching it."
+        ],
+        "flags": [
+            "stories pinch to zoom"
+        ],
+        "media": [
+            ""
+        ],
+        "suboptions": [
+            ""
+        ]
     }
 ]
