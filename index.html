@@ -9,23 +9,14 @@
     <title>Dani repo</title>
 </head>
 
-<script>
-    async function loadDoc() {
-        const obj = await (await fetch("http://wings.mrserver.ddnss.de:25505/avatar/2046659417")).json();
-        document.getElementById("myImg").src = obj.link
-    }
-    </script>
-
-
-
-<body class="noselect" onload="loadDoc()">
+<body class="noselect">
     <nav></nav>
     <div class="wrapper">
         <div class="author">
             <div class="flip-container">
                 <div class="flipper">
                     <div clas="front">
-                        <img  id="myImg" class="author-avatar loading">
+                        <img id="myImg" class="author-avatar loading">
                     </div>
                     <div class="back">
                         <img src="./images/silly-cat.jpg" class="author-avatar">
@@ -56,6 +47,7 @@
         if (window.location.origin.endsWith('github.io'))
             document.body.innerHTML = '<h1>This website is under construction, come back later</h1>';
     </script>
+    <script src="./js/home.js"></script>
 </body>
 
 </html>
