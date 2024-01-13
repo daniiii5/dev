@@ -84,7 +84,7 @@
 
     document.querySelectorAll('h2').forEach((h2) =>
         h2.addEventListener('click', (ev) => {
-            window.location.hash = '#' + ev.target.textContent.split('#')[1].trim().replaceAll(' ', '-').toLowerCase();
+            window.location.hash = '#' + ev.target.id;
             navigator.clipboard.writeText(window.location.href);
         })
     );

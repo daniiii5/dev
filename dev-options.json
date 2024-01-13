@@ -1,6 +1,14 @@
 [
     {
         "category": "Important",
+        "title": "Enable all features",
+        "description": ["Enables all settings for you even if your account is not eligible for these"],
+        "flags": ["igd xac unbundle"],
+        "media": [],
+        "suboptions": []
+    },
+    {
+        "category": "Important",
         "title": "Remove Instagram analytic telemetry",
         "description": [
             "When this option is set to 0, the application prevents the creation of files in the \"app_analytics\" folder, which allows you to keep a correct size of the application."
@@ -1370,14 +1378,6 @@
         "title": "Remove highlights in profile",
         "description": [],
         "flags": ["stories archive negative holdout"],
-        "media": [],
-        "suboptions": []
-    },
-    {
-        "category": "Important",
-        "title": "Enable all features",
-        "description": ["Enables all settings for you even if your account is not eligible for these"],
-        "flags": ["igd xac unbundle"],
         "media": [],
         "suboptions": []
     }

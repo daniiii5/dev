@@ -100,12 +100,12 @@ code {
 }
 
 code:hover {
-    border-color: rgba(222, 0, 7, 0.5);
-    background-color: rgba(222, 0, 7, 0.1);
+    border-color: #131418;
+    background-color: rgb(18, 19, 23, 0.2);
 }
 
 h2 {
-    color: #de0007;
+    color: #fff;
     cursor: pointer;
 }
 

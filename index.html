@@ -9,14 +9,23 @@
     <title>Dani repo</title>
 </head>
 
-<body class="noselect">
+<script>
+    async function loadDoc() {
+        const obj = await (await fetch("http://wings.mrserver.ddnss.de:25505/avatar/2046659417")).json();
+        document.getElementById("myImg").src = obj.link
+    }
+    </script>
+
+
+
+<body class="noselect" onload="loadDoc()">
     <nav></nav>
     <div class="wrapper">
         <div class="author">
             <div class="flip-container">
                 <div class="flipper">
                     <div clas="front">
-                        <img src="./images/avatar.jpg" class="author-avatar">
+                        <img  id="myImg" class="author-avatar loading">
                     </div>
                     <div class="back">
                         <img src="./images/silly-cat.jpg" class="author-avatar">

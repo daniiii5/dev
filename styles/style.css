@@ -109,8 +109,21 @@ small {
 }
 
 .author-avatar {
-    border-radius: 50%;
-    /* border: 2px solid #fff; */
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    user-select: none;
+    background-color: #0d122b;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-animation: .5s ease-in forwards fadein;
+    animation: .5s ease-in forwards fadein;
+    opacity: 1;
+    /* border: 2px solid #fff; */   
+}
+
+img.loading {
+    background: transparent url(https://media.tenor.com/JeNT_qdjEYcAAAAj/loading.gif) no-repeat scroll center center;
 }
 
 .flip-container {
@@ -161,6 +174,14 @@ small {
 }
 
 .author-bio {
+    margin: 0 auto;
+    text-align: center;
+    opacity: .6;
+    max-width: 393px;
+    line-height: 1.688;
+}
+
+.author-name {
     text-align: center;
 }
 
@@ -169,7 +190,7 @@ h1 {
 }
 
 h2 {
-    font-size: 22px
+    font-size: 27.2px
 }
 
 h3 {
