@@ -120,9 +120,6 @@ small {
     animation: .5s ease-in forwards fadein;
     opacity: 1;
     /* border: 2px solid #fff; */   
-}
-
-img.loading {
     background: transparent url(https://media.tenor.com/JeNT_qdjEYcAAAAj/loading.gif) no-repeat scroll center center;
 }
 
