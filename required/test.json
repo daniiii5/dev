@@ -1933,12 +1933,12 @@
       },
       {
         "category": "Important",
-        "title": "TEST1234",
+        "title": "this is a test",
         "description": [
-          "1Enables all settings for you even if your account is not eligible for these"
+          "test desc"
         ],
         "flags": [
-          "1igd xac unbundle"
+          "test flag"
         ],
         "media": [],
         "suboptions": []
