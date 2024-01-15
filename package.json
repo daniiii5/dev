@@ -1,0 +1,21 @@
+{
+    "name": "dev",
+    "version": "1.0.0",
+    "description": "website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "posts": "node ./required/postsFinder.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daniiii5/dev.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/daniiii5/dev/issues"
+    },
+    "homepage": "https://github.com/daniiii5/dev#readme"
+}

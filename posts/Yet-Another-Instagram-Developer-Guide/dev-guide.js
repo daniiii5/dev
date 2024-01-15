@@ -53,14 +53,7 @@
     const importOrder = ['Important', 'Audio', 'Feed'];
 
     // transform into an array
-    const devOptions = Array.from(
-        await // fetch the json file
-        (
-            await fetch('./dev-options.json')
-        )
-            // transform into a js object
-            .json()
-    ).sort((a, b) => {
+    const devOptions = Array.from(await (await fetch('./dev-options.json')).json()).sort((a, b) => {
         const aIndex = importOrder.indexOf(a.category);
         const bIndex = importOrder.indexOf(b.category);
 
