@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+on:
+    push:
+        branches: 'master'
+    workflow_dispatch:
+
+jobs:
+    build_site:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout 🔗
+              uses: actions/checkout@v3
+
+            - name: Install Node.js ⚙️
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+                  cache: npm
+
+            - name: Install dependencies 📦
+              run: npm install
+
+            - name: Build 🛠️
+              env:
+                  BASE_PATH: 'dev'
+              run: |
+                  npm run build
+                  touch build/.nojekyll
+
+            - name: Upload Artifacts 🔧
+              uses: actions/upload-pages-artifact@v1
+              with:
+                  # this should match the `pages` option in your adapter-static options
+                  path: 'build/'
+
+    deploy:
+        needs: build_site
+        runs-on: ubuntu-latest
+
+        permissions:
+            pages: write
+            id-token: write
+
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+        steps:
+            - name: Deploy 🚀
+              id: deployment
+              uses: actions/deploy-pages@v1

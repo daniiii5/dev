@@ -1,21 +1,30 @@
 {
-    "name": "dev",
-    "version": "1.0.0",
-    "description": "website",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "posts": "node ./required/postsFinder.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/daniiii5/dev.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/daniiii5/dev/issues"
-    },
-    "homepage": "https://github.com/daniiii5/dev#readme"
+	"name": "madkarmaa.github.io",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host --open",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.20.4",
+		"@types/semver": "^7.5.2",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"semver": "^7.5.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"moment": "^2.29.4"
+	}
 }
